@@ -19,5 +19,5 @@ script: "npm run-script $TEST_SUITE"
 # added power support arch ppc64le.
 - node_js: "4"
       env: TEST_SUITE=standard
-      arch: ppc64le
 script: "npm run-script $TEST_SUITE"
+arch: ppc64le
